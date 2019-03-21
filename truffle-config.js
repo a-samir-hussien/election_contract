@@ -17,8 +17,8 @@
  * phrase from a file you've .gitignored so it doesn't accidentally become public.
  *
  */
-let HDWalletProvider = require('truffle-hdwallet-provider');
-let mnemonic = "sound creek welcome cousin option stay update keep animal cactus detail shock"; // Paste in your mnemonics here for testnet
+//let HDWalletProvider = require('truffle-hdwallet-provider');
+//let mnemonic = "sound creek welcome cousin option stay update keep animal cactus detail shock"; // Paste in your mnemonics here for testnet
 // let mnemonic = process.env.PRIV_SEED // Use ENV variable for mainnet
 
 // const HDWalletProvider = require('truffle-hdwallet-provider');
@@ -50,17 +50,17 @@ module.exports = {
       port: 8545,            // Standard Ethereum port (default: none)
       network_id: "*",       // Any network (default: none)
     },
-    rinkby: {
+    /*rinkby: {
       provider: function() {
         return new HDWalletProvider(mnemonic, "https://rinkeby.infura.io/v3/743e8ef77eea4528807821cc1e998caa");
       },
       network_id: '4',
-    },
+    },*/
     buddy:{
 	 host: "ganache",    
          port: 8545,           
          network_id: "*",    
-    }
+    },
     // Another network with more advanced options...
     // advanced: {
       // port: 8777,             // Custom port
