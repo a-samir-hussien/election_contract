@@ -55,6 +55,11 @@ module.exports = {
         return new HDWalletProvider(mnemonic, "https://rinkeby.infura.io/v3/743e8ef77eea4528807821cc1e998caa");
       },
       network_id: '4',
+    },
+    buddy:{
+	 host: "ganache",    
+         port: 8545,           
+         network_id: "*",    
     }
     // Another network with more advanced options...
     // advanced: {
