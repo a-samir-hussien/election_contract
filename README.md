@@ -1,2 +1,1 @@
-# election_contract ok
-
+# election_contract
