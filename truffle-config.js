@@ -18,8 +18,8 @@
  *
  */
 let HDWalletProvider = require('truffle-hdwallet-provider');
-//let mnemonic = "sound creek welcome cousin option stay update keep animal cactus detail shock"; // Paste in your mnemonics here for testnet
-let mnemonic = process.env.mnemonic; // Use ENV variable for mainnet
+let mnemonic = "sound creek welcome cousin option stay update keep animal cactus detail shock"; // Paste in your mnemonics here for testnet
+//let mnemonic = process.env.mnemonic; // Use ENV variable for mainnet
 
 // const HDWalletProvider = require('truffle-hdwallet-provider');
 // const infuraKey = "fj4jll3k.....";
